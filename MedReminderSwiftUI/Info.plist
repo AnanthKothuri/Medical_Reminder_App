@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Speech recognition is used only to verify medication acknowledgement with words such as &quot;Okay&quot;, &quot;Continue&quot;, and &quot;Done&quot; to name a few. No spoken data will be transported or saved.</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>NunitoSans-Regular.ttf</string>
+		<string>NunitoSans-Light.ttf</string>
+		<string>NunitoSans-SemiBold.ttf</string>
+		<string>NunitoSans-Bold.ttf</string>
+		<string>NunitoSans-Black.ttf</string>
+		<string>NunitoSans-ExtraBold.ttf</string>
+		<string>NunitoSans-BlackItalic.ttf</string>
+		<string>NunitoSans-BoldItalic.ttf</string>
+		<string>NunitoSans-ExtraLight.ttf</string>
+		<string>NunitoSans-Italic.ttf</string>
+		<string>NunitoSans-LightItalic.ttf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>processing</string>
+		<string>remote-notification</string>
+	</array>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+		<string>MedicineApp</string>
+	</array>
+</dict>
+</plist>
